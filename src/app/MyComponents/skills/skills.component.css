@@ -1,0 +1,35 @@
+.container
+{
+    width:fit-content ;
+}
+
+.row 
+{
+    display: flex;
+    text-align: center;
+}
+  
+.column 
+{
+    flex: 33.33%;
+    padding: 40px;
+}
+
+#myImg
+{
+    height: 100px;
+    width: 100px;
+}
+#myImg:hover
+{
+    opacity: 0.8;   
+}
+@media (max-width: 800px) {
+    #myImg{
+        height: 50px;
+        width: 50px;
+    }
+    .column{
+        padding: 10px;
+    }
+}

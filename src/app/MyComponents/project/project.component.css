@@ -1,0 +1,52 @@
+.container
+{
+    width: 100%;
+    padding-top: 10px;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+img:hover
+{
+    width: 160px;
+    height: 160px;
+}
+
+.main-row
+{
+    display: flex;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.7);
+}
+
+.column2
+{
+    width:100%;
+}
+.title-row
+{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(39, 39, 39, 0.7);
+    font-family: 'Courier New';
+    color: rgb(214, 189, 160);
+
+}
+.detail-row
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 'Courier New';
+    color: rgb(74, 107, 126);
+}
+
+@media (max-width: 800px) {
+    .main-row{
+        display: block;
+    }
+}

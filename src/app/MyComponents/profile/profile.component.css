@@ -1,0 +1,118 @@
+.container
+{
+    display: flex;
+}
+/*.container-about
+{
+    
+    margin-top: 40px;
+    background-color: black;
+    opacity: 70%; 
+    border-radius: 10px;
+    flex: 3;
+    height: fit-content;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}*/
+
+.about
+{
+    font-size: large;
+    color: wheat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+   
+}
+.container-about:hover
+{
+    opacity: 80%;
+}
+
+.profile-image
+{
+   
+    /*text-align: center;*/
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+img
+{
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    opacity: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: rgb(1, 24, 24);
+    
+}
+.vl {
+    border-left: 5px solid rgb(0, 0, 0);
+    height:2;
+    margin-right: 40px;
+    margin-left: 40px;
+    opacity: 20%;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook,.fa-twitter,.fa-linkedin,.fa-instagram  {
+    background: transparent;
+    color: white;
+  }
+
+  .social
+  {
+      text-align: center;
+      margin-right: 20px;
+  }
+   
+  .contact-details
+  {
+      color: white;
+      text-align: center;
+  }
+  .contact-details :hover
+  {
+        color:lightseagreen
+  }
+  .container-right
+  {
+      height: fit-content;
+      background-color:rgba(0,0,0,.5);       
+      padding: 10px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+  }
+  hr{
+    border-top: 2px solid darkslategray;
+  }
+@media (max-width: 800px) 
+{
+    .container
+    {
+        display: block;
+    }
+    .profile-image
+    {
+        text-align: center;
+    }
+}
