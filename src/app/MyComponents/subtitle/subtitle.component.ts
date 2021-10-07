@@ -4,7 +4,6 @@ import { SharedService } from 'src/app/services/shared.service';
 import { Injectable } from '@angular/core';
 
 
-
 @Injectable({
   providedIn: 'root',
 })
@@ -42,7 +41,7 @@ export class SubtitleComponent implements OnInit {
         case "/Projects":
         return "These are my projects";break;
         default:
-        return "These are my Skills";
+        return "<These are my Skills>";
     }
   }
 
